@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        function check(){
+            var c = document.getElementById('data').value;
+            if(c==1){
+                document.write('There are 31 days in january.');
+            }
+            else if(c==2){
+                document.write('There are 28 days in february.');
+            }
+            else if(c==3){
+                document.write('There are 31 days in march.');
+            }
+            else if(c==4){
+                document.write('There are 30 days in april.');
+            }
+            else if(c==5){
+                document.write('There are 31 days in may.');
+            }
+            else if(c==6){
+                document.write('There are 30 days in june.');
+            }
+            else if(c==7){
+                document.write('There are 31 days in july.');
+            }
+            else if(c==8){
+                document.write('There are 31 days in august.');
+            }
+            else if(c==9){
+                document.write('There are 30 days in september.');
+            }
+            else if(c==10){
+                document.write('There are 31 days in october.');
+            }
+            else if(c==11){
+                document.write('There are 30 days in november.');
+            }
+            else if(c==12){
+                document.write('There are 31 days in december.');
+            }
+      
+            document.getElementById('res').innerText = `${c} C`;
+          }
+    
+        </script>
+    <input type="" name="" id="data">
+    <button onclick="check()">check</button>
+    <h1 id="res"></h1>
+    
+</body>
+</html>
